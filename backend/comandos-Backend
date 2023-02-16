@@ -1,0 +1,150 @@
+npm run dev //executando backend
+
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/girlany/Projetos React Web/E-esportes-NDM/backend/src/server.js'
+  ]
+}
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node src/server.js`
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module 'todos./routes'
+Require stack:
+- /home/girlany/Projetos React Web/E-esportes-NDM/backend/src/server.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/girlany/Projetos React Web/E-esportes-NDM/backend/src/server.js:2:21)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/girlany/Projetos React Web/E-esportes-NDM/backend/src/server.js'
+  ]
+}
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node src/server.js`
+Server gih up in 3333
+[nodemon] restarting due to changes...
+[nodemon] starting `node src/server.js`
+Server gih up in 3333
+[nodemon] restarting due to changes...
+[nodemon] starting `node src/server.js`
+Server gih up in 3333
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node src/server.js`
+Server gih up in 3333
+[nodemon] restarting due to changes...
+[nodemon] starting `node src/server.js`
+Server gih up in 3333
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node src/server.js`
+Server gih up in 3333
+[nodemon] restarting due to changes...
+[nodemon] starting `node src/server.js`
+Server gih up in 3333
+^C
+girlany@girlany:~/Projetos React Web/E-esportes-NDM/backend$ npm run dev
+
+> tutorial@1.0.0 dev
+> nodemon src/server.js
+
+[nodemon] 2.0.20
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node src/server.js`
+Server gih up in 3333
+[nodemon] restarting due to changes...
+[nodemon] starting `node src/server.js`
+Server gih up in 3333
+[nodemon] restarting due to changes...
+[nodemon] starting `node src/server.js`
+Server gih up in 3333
+[nodemon] restarting due to changes...
+[nodemon] starting `node src/server.js`
+Server gih up in 3333
+[nodemon] restarting due to changes...
+[nodemon] starting `node src/server.js`
+Server gih up in 3333
+[nodemon] restarting due to changes...
+[nodemon] starting `node src/server.js`
+Server gih up in 3333
+[nodemon] restarting due to changes...
+[nodemon] starting `node src/server.js`
+Server gih up in 3333
+
+ *  Histórico restaurado 
+
+girlany@girlany:~/Projetos React Web/E-esportes-NDM/backend$ npm run dev
+
+> tutorial@1.0.0 dev
+> nodemon src/server.js
+
+[nodemon] 2.0.20
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node src/server.js`
+Server gih up in 3333
+[nodemon] restarting due to changes...
+[nodemon] starting `node src/server.js`
+Server gih up in 3333
+[nodemon] restarting due to changes...
+[nodemon] starting `node src/server.js`
+Server gih up in 3333
+[nodemon] restarting due to changes...
+[nodemon] starting `node src/server.js`
+Server gih up in 3333
+
+ *  Histórico restaurado 
+
+girlany@girlany:~/Projetos React Web/E-esporte
+girlany@girlany:~/Projetos React Web/E-esportes-NDM/backend$ npm run dev
+
+> tutorial@1.0.0 dev
+> nodemon src/server.js
+
+[nodemon] 2.0.20
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node src/server.js`
+Server gih up in 3333
+
+
+
+
+
+
+docker-compose up -d // executando db do projeto
+npx prisma migrate dev Todo //criando migrate
+npx prisma migrate dev AddDefaultValueToStatusTodo // atualizando migrate
+
+
+girlany@girlany:~/Projetos React Web/E-esportes-NDM/backend$ docker-compose up -d
+tutorial is up-to-date
+girlany@girlany:~/Projetos React Web/E-esportes-NDM/backend$ npx prisma studio
+Environment variables loaded from .env
+Prisma schema loaded from prisma/schema.prisma
+Prisma Studio is up on http://localhost:5555
+
+
+
+
+
