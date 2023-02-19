@@ -29,7 +29,7 @@ function Autores() {
   
          
 
-              <p>nome{categoria.nome}</p>
+              <p>nome {categoria.nome}</p>
               
               
   
@@ -127,7 +127,7 @@ function Autores() {
 
   return (
     <div className="App">
-     
+     <header className="container">
       <div className="header">
           <h1>Times</h1>
         </div>
@@ -154,8 +154,9 @@ function Autores() {
               : handleWithNewButton
           }
           className='newTaskButton'>   {inputVisbility ? "Confirm" : "+ New Time"}</button>
- 
+        </header>
     </div>
+   
 
 
   );
